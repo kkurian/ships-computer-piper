@@ -1,0 +1,9 @@
+# Voice weights ship as release assets, not in git (see VOICE-NOTICE.md)
+*.onnx
+*.onnx.json
+SHA256SUMS
+
+# Local engine venv
+.piper/
+__pycache__/
+*.wav
